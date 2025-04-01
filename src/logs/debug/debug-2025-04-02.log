@@ -1,0 +1,97 @@
+[2025-04-01T13:00:17.009Z] WARN: GET /api/signup 404 - 7ms
+[2025-04-01T13:00:56.533Z] WARN: GET /api/auth/signup 404 - 3ms
+[2025-04-01T13:01:24.566Z] WARN: POST /api/auth/signup 400 - 9ms
+[2025-04-01T13:01:42.537Z] ERROR: POST /api/auth/signup 500 - 75ms
+[2025-04-01T13:09:48.448Z] ERROR: POST /api/auth/signup 500 - 61ms
+[2025-04-01T13:15:45.725Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:15:45.728Z] INFO: Database connected successfully!
+[2025-04-01T13:15:45.730Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T13:15:45.730Z] INFO: 7ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:18:40.837Z] INFO: 22ms Executed (default): SELECT "id", "email", "name", "username", "password", "created_at", "updated_at" FROM "users" AS "UserModel" WHERE "UserModel"."email" = 'email@example.com';
+[2025-04-01T13:18:40.919Z] INFO: 5ms Executed (default): INSERT INTO "users" ("id","email","name","username","password","created_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "id","email","name","username","password","created_at","updated_at"; "e376fae4-5513-44f7-b257-3ca8c0686171", "email@example.com", "Full Name", "email-m8yixmoa", "$2b$10$LJ0JR9SfEiLgmgEFgOkdBu9ORfd9kFgglogrVnNCcq4kUwCxqS3ZO", "2025-04-01 22:18:40.910 +09:00", "2025-04-01 22:18:40.910 +09:00"
+[2025-04-01T13:18:40.923Z] INFO: POST /api/auth/signup 201 - 167ms
+[2025-04-01T13:20:29.464Z] INFO: 5ms Executed (default): SELECT "id", "email", "name", "username", "password", "created_at", "updated_at" FROM "users" AS "UserModel" WHERE "UserModel"."email" = 'email@example.com';
+[2025-04-01T13:20:29.549Z] INFO: POST /api/auth/signin 200 - 140ms
+[2025-04-01T13:32:01.450Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:32:01.453Z] INFO: Database connected successfully!
+[2025-04-01T13:32:01.454Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T13:32:01.455Z] INFO: 7ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:48:22.545Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:48:22.548Z] INFO: Database connected successfully!
+[2025-04-01T13:48:22.549Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T13:48:22.549Z] INFO: 5ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:48:42.537Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:48:42.538Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:48:42.538Z] INFO: Database connected successfully!
+[2025-04-01T13:48:42.539Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T13:49:17.413Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:49:17.414Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:49:17.414Z] INFO: Database connected successfully!
+[2025-04-01T13:49:17.415Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T13:54:25.047Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:54:25.050Z] INFO: 4ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:54:25.050Z] INFO: Database connected successfully!
+[2025-04-01T13:54:25.051Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T13:54:45.301Z] INFO: 5ms Executed (default): SELECT "id", "email", "name", "username", "password", "created_at", "updated_at" FROM "users" AS "UserModel" WHERE "UserModel"."email" = 'email@example.com';
+[2025-04-01T13:54:45.304Z] WARN: POST /api/auth/signup 409 - 44ms
+[2025-04-01T13:54:52.527Z] INFO: 1ms Executed (default): SELECT "id", "email", "name", "username", "password", "created_at", "updated_at" FROM "users" AS "UserModel" WHERE "UserModel"."email" = 'email1@example.com';
+[2025-04-01T13:54:52.618Z] INFO: 4ms Executed (default): INSERT INTO "users" ("id","email","name","username","password","created_at","updated_at") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING "id","email","name","username","password","created_at","updated_at"; "email1@example.com", "Full Name", "email1-m8yk86b8", "$2b$10$RNNwJJmUkcpr5Cuj6maVJeF7jvWtDVhH3iCehbx4yCFE4FAnfNzA2", "2025-04-01 22:54:52.612 +09:00", "2025-04-01 22:54:52.612 +09:00"
+[2025-04-01T13:54:52.619Z] INFO: POST /api/auth/signup 201 - 98ms
+[2025-04-01T13:57:38.807Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:57:38.808Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:57:38.808Z] INFO: Database connected successfully!
+[2025-04-01T13:57:38.809Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T13:57:52.575Z] INFO: 3ms Executed (default): SELECT "id", "email", "name", "username", "password", "created_at", "updated_at" FROM "users" AS "UserModel" WHERE "UserModel"."email" = 'email12@example.com';
+[2025-04-01T13:57:52.658Z] INFO: 4ms Executed (default): INSERT INTO "users" ("id","email","name","username","password","created_at","updated_at") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING "id","email","name","username","password","created_at","updated_at"; "email12@example.com", "Full Name", "email12-m8ykc1ak", "$2b$10$uvSfV5a1NBAwvV32AY1FZuyTtejdDVrkfW0AAb0THMYrIjlWNIwuG", "2025-04-01 22:57:52.651 +09:00", "2025-04-01 22:57:52.651 +09:00"
+[2025-04-01T13:57:52.660Z] INFO: POST /api/auth/signup 201 - 120ms
+[2025-04-01T13:59:16.513Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:59:16.514Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:59:16.515Z] INFO: Database connected successfully!
+[2025-04-01T13:59:16.516Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T13:59:18.948Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:59:18.949Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:59:18.950Z] INFO: Database connected successfully!
+[2025-04-01T13:59:18.950Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T13:59:20.789Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:59:20.791Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T13:59:20.791Z] INFO: Database connected successfully!
+[2025-04-01T13:59:20.792Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T13:59:32.705Z] INFO: 3ms Executed (default): SELECT "id", "email", "name", "username", "password", "created_at", "updated_at" FROM "users" AS "UserModel" WHERE "UserModel"."email" = 'email123@example.com';
+[2025-04-01T13:59:32.789Z] INFO: 3ms Executed (default): INSERT INTO "users" ("id","email","name","username","password","created_at","updated_at") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING "id","email","name","username","password","created_at","updated_at"; "email123@example.com", "Full Name", "email123-m8yke6it", "$2b$10$VUwhB770dR.r7s9C7uXrcukvefvSy.xeNXb4KTpb/OhmUJljjOR0C", "2025-04-01 22:59:32.784 +09:00", "2025-04-01 22:59:32.784 +09:00"
+[2025-04-01T13:59:32.791Z] INFO: POST /api/auth/signup 201 - 126ms
+[2025-04-01T14:00:32.659Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:00:32.660Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:00:32.660Z] INFO: Database connected successfully!
+[2025-04-01T14:00:32.661Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T14:00:34.140Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:00:34.141Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:00:34.141Z] INFO: Database connected successfully!
+[2025-04-01T14:00:34.142Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T14:00:53.469Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:00:53.470Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:00:53.470Z] INFO: Database connected successfully!
+[2025-04-01T14:00:53.472Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T14:01:43.982Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:01:43.984Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:01:43.984Z] INFO: Database connected successfully!
+[2025-04-01T14:01:43.985Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T14:01:59.898Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:01:59.900Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:01:59.900Z] INFO: Database connected successfully!
+[2025-04-01T14:01:59.901Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T14:02:11.814Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:02:11.816Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:02:11.816Z] INFO: Database connected successfully!
+[2025-04-01T14:02:11.817Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T14:03:48.281Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:03:48.282Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:03:48.282Z] INFO: Database connected successfully!
+[2025-04-01T14:03:48.283Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T14:04:58.120Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:04:58.122Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:04:58.122Z] INFO: Database connected successfully!
+[2025-04-01T14:04:58.123Z] INFO: Server is running on http://localhost:5000
+[2025-04-01T14:10:33.103Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:10:33.107Z] INFO: 7ms Executed (default): SELECT 1+1 AS result
+[2025-04-01T14:10:33.107Z] INFO: Database connected successfully!
+[2025-04-01T14:10:33.108Z] INFO: Server is running on http://localhost:5000

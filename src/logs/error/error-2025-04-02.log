@@ -1,0 +1,2 @@
+[2025-04-01T13:01:42.537Z] ERROR: POST /api/auth/signup 500 - 75ms
+[2025-04-01T13:09:48.448Z] ERROR: POST /api/auth/signup 500 - 61ms

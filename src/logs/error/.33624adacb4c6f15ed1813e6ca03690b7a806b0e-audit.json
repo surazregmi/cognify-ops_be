@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/Users/surajregmi/Desktop/backend/cognify-be/src/logs/error/.33624adacb4c6f15ed1813e6ca03690b7a806b0e-audit.json",
+    "files": [
+        {
+            "date": 1743510720096,
+            "name": "/Users/surajregmi/Desktop/backend/cognify-be/src/logs/error/error-2025-04-01.log",
+            "hash": "974d79ec52709df6eb93699aa1631efaca5439b98ddad38d50da593f2fcc93bc"
+        },
+        {
+            "date": 1743512502537,
+            "name": "/Users/surajregmi/Desktop/backend/cognify-be/src/logs/error/error-2025-04-02.log",
+            "hash": "a47d943f14894555df14aa6359d66a2bb2b1d5201584c0c0dbaec6c6c95b2a1b"
+        }
+    ],
+    "hashType": "sha256"
+}
