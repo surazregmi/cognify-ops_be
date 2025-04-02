@@ -25,7 +25,7 @@ Make sure you have installed the following tools:
 1. Clone repository:
 
    ```bash
-   git clone https://github.com/pius706975/express-typescript-sequelize-boilerplate.git
+   git clone https://github.com/surazregmi/cognify-ops_be.git
    ```
 
 2. Install the dependencies:
