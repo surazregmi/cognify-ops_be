@@ -1,11 +1,9 @@
-
-# 📦 Backend Boilerplate With Express.js - Typescript - Sequelize 
-
-This is a simple boilerplate with **Express.js** with a ready-to-use configuration for backend development. You can adjust it according to your requirements.
+# 📦 Express.js - Typescript - Sequelize
 
 ---
 
 ## ✨ Features
+
 - ⚡ [**Express.js**](https://expressjs.com/) as the backend framework
 - 📋 [**Swagger**](https://swagger.io/docs/) for API documentations
 - 🛠 [**Typescript**](https://www.typescriptlang.org/docs/) for strong type support
@@ -17,7 +15,7 @@ This is a simple boilerplate with **Express.js** with a ready-to-use configurati
 
 Make sure you have installed the following tools:
 
-- **Node.js** >= v18.x.x  
+- **Node.js** >= v18.x.x
 - **npm**
 
 ---
@@ -48,14 +46,14 @@ Make sure you have installed the following tools:
     PORT = port number
     NODE_ENV = env
     BASE_URL = base url
-    
+
     DB_PORT = db port
     DB_USERNAME = db username
     DB_PASSWORD = db password
     DB_NAME = db name
     DB_HOST = host
     DB_DIALECT = dialect
-    
+
     JWT_ACCESS_TOKEN_SECRET = JWT secret
    ```
 
@@ -74,14 +72,16 @@ npm start
 ```
 
 Run the test:
+
 - Test all function
-   ```bash
-   npm run test
-   ```
+  ```bash
+  npm run test
+  ```
 - Test by selecting the file
-   ```bash
-   npm run test path-to-your-test-file/file.test.ts
-   ```
+  ```bash
+  npm run test path-to-your-test-file/file.test.ts
+  ```
+
 ---
 
 ## 🛠 Additional
@@ -98,6 +98,7 @@ Run the test:
   ```bash
   npm run migration:generate --name "create-table-name"
   ```
+
 ---
 
 ## 📚 API Documentation
@@ -114,7 +115,7 @@ Let's have a look at this structure:
 
 ```
 ├── /node_modules
-├── /src                 
+├── /src
 │   ├── /config          # Base configuration such as .env key and sequelize-cli configuration
 │   ├── /database
 │   │   ├── /migrations  # DB migration files to migrate our DB tables
@@ -124,10 +125,10 @@ Let's have a look at this structure:
 │   ├── /logs            # Access logs
 │   ├── /middleware      # App middlewares
 │   ├── /modules         # App modules
-│   │   ├── /auth        #    
+│   │   ├── /auth        #
 │   │   ├── /user        # These module directories will store repo, service, controller, routes, and validator files.
 │   │   └── /etc         #
-│   ├── /routes          # Main route file that store all of the module routes 
+│   ├── /routes          # Main route file that store all of the module routes
 │   ├── /types           # typescript support
 │   ├── /utils           # Utils
 │   └── server.js        # Entry point of the app
@@ -153,12 +154,8 @@ Response:
 
 ```json
 {
-    "message": "Successfully signed up"
+  "message": "Successfully signed up"
 }
 ```
 
 ---
-
-## 👨‍💻 Contributor
-
-- Pius Restiantoro - [GitHub](https://github.com/pius706975)
