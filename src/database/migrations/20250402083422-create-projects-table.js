@@ -17,27 +17,31 @@ module.exports = {
         primaryKey: true,
       },
       name: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(255),
         allowNull: false,
       },
       description: {
         type: Sequelize.TEXT,
+        allowNull: true,
       },
       created_by: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
-          model: "users", // MUST match the table name
+          model: "users", // references 'users' table
           key: "id",
         },
+        onUpdate: "CASCADE",
         onDelete: "CASCADE",
       },
       created_at: {
         type: Sequelize.DATE,
+        allowNull: false,
         defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
       updated_at: {
         type: Sequelize.DATE,
+        allowNull: false,
         defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });

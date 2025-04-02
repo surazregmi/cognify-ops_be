@@ -1,2 +1,4 @@
 [2025-04-01T13:01:42.537Z] ERROR: POST /api/auth/signup 500 - 75ms
 [2025-04-01T13:09:48.448Z] ERROR: POST /api/auth/signup 500 - 61ms
+[2025-04-02T10:40:20.709Z] ERROR: POST /api/projects 500 - 7ms
+[2025-04-02T11:07:47.283Z] ERROR: DELETE /api/projects/2 500 - 7ms

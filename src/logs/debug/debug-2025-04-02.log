@@ -95,3 +95,129 @@
 [2025-04-01T14:10:33.107Z] INFO: 7ms Executed (default): SELECT 1+1 AS result
 [2025-04-01T14:10:33.107Z] INFO: Database connected successfully!
 [2025-04-01T14:10:33.108Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T08:37:48.507Z] INFO: 3ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:37:48.508Z] INFO: 3ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:37:48.509Z] INFO: Database connected successfully!
+[2025-04-02T08:37:48.510Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T08:37:55.355Z] INFO: 10ms Executed (default): SELECT "id", "email", "name", "username", "password", "created_at", "updated_at" FROM "users" AS "UserModel" WHERE "UserModel"."email" = 'email123@example.com';
+[2025-04-02T08:37:55.439Z] INFO: 6ms Executed (default): INSERT INTO "users" ("id","email","name","username","password","created_at","updated_at") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING "id","email","name","username","password","created_at","updated_at"; "email123@example.com", "Full Name", "email123-m8zocfav", "$2b$10$1Pts8r9scIn6XnD4e0I.QODAkt4Mi3T2.Lv.bfsIZTCgi5PM/d8by", "2025-04-02 17:37:55.430 +09:00", "2025-04-02 17:37:55.430 +09:00"
+[2025-04-02T08:37:55.441Z] INFO: POST /api/auth/signup 201 - 122ms
+[2025-04-02T08:55:43.633Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:55:43.636Z] INFO: 4ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:55:43.636Z] INFO: Database connected successfully!
+[2025-04-02T08:55:43.638Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T08:55:54.380Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:55:54.382Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:55:54.382Z] INFO: Database connected successfully!
+[2025-04-02T08:55:54.383Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T08:56:14.483Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:56:14.484Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:56:14.484Z] INFO: Database connected successfully!
+[2025-04-02T08:56:14.485Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T08:56:26.808Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:56:26.809Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:56:26.809Z] INFO: Database connected successfully!
+[2025-04-02T08:56:26.810Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T08:58:40.343Z] INFO: 11ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:58:40.344Z] INFO: 12ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:58:40.345Z] INFO: Database connected successfully!
+[2025-04-02T08:58:40.346Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T08:59:52.086Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:59:52.088Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T08:59:52.088Z] INFO: Database connected successfully!
+[2025-04-02T08:59:52.089Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T09:02:36.282Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T09:02:36.283Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T09:02:36.283Z] INFO: Database connected successfully!
+[2025-04-02T09:02:36.284Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T09:03:26.834Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T09:03:26.835Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T09:03:26.835Z] INFO: Database connected successfully!
+[2025-04-02T09:03:26.836Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T09:06:26.049Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T09:06:26.051Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T09:06:26.051Z] INFO: Database connected successfully!
+[2025-04-02T09:06:26.052Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T09:06:50.696Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T09:06:50.697Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T09:06:50.697Z] INFO: Database connected successfully!
+[2025-04-02T09:06:50.698Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T10:26:39.374Z] INFO: 13ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:26:39.377Z] INFO: 16ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:26:39.378Z] INFO: Database connected successfully!
+[2025-04-02T10:26:39.379Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T10:27:52.651Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:27:52.652Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:27:52.653Z] INFO: Database connected successfully!
+[2025-04-02T10:27:52.653Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T10:28:11.502Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:28:11.504Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:28:11.504Z] INFO: Database connected successfully!
+[2025-04-02T10:28:11.505Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T10:30:58.277Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:30:58.279Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:30:58.279Z] INFO: Database connected successfully!
+[2025-04-02T10:30:58.280Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T10:30:58.954Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:30:58.956Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:30:58.956Z] INFO: Database connected successfully!
+[2025-04-02T10:30:58.957Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T10:31:05.620Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:31:05.622Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:31:05.622Z] INFO: Database connected successfully!
+[2025-04-02T10:31:05.623Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T10:31:46.444Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:31:46.446Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T10:31:46.446Z] INFO: Database connected successfully!
+[2025-04-02T10:31:46.447Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T10:36:44.101Z] INFO: 21ms Executed (default): SELECT "id", "email", "name", "username", "password", "created_at", "updated_at" FROM "users" AS "UserModel" WHERE "UserModel"."email" = 'email123@example.com';
+[2025-04-02T10:36:44.179Z] INFO: POST /api/auth/signin 200 - 181ms
+[2025-04-02T10:37:36.621Z] INFO: 15ms Executed (default): INSERT INTO "projects" ("project_id","name","description","created_by","created_at","updated_at") VALUES (DEFAULT,$1,$2,$3,$4,$5) RETURNING "project_id","name","description","created_by","created_at","updated_at"; "Cognify Ops", "AI-powered project management assistant", 1, "2025-04-02 19:37:36.592 +09:00", "2025-04-02 19:37:36.592 +09:00"
+[2025-04-02T10:37:36.622Z] INFO: POST /api/projects 201 - 39ms
+[2025-04-02T10:40:20.709Z] ERROR: POST /api/projects 500 - 7ms
+[2025-04-02T10:40:33.914Z] INFO: 4ms Executed (default): INSERT INTO "projects" ("project_id","name","description","created_by","created_at","updated_at") VALUES (DEFAULT,$1,$2,$3,$4,$5) RETURNING "project_id","name","description","created_by","created_at","updated_at"; "Cognify Ops", "AI-powered project management assistant", 1, "2025-04-02 19:40:33.885 +09:00", "2025-04-02 19:40:33.885 +09:00"
+[2025-04-02T10:40:33.915Z] INFO: POST /api/projects 201 - 36ms
+[2025-04-02T10:41:35.901Z] WARN: POST /api/projects 400 - 7ms
+[2025-04-02T10:41:47.245Z] INFO: 2ms Executed (default): SELECT "project_id", "name", "description", "created_by", "created_at", "updated_at" FROM "projects" AS "ProjectModel" WHERE "ProjectModel"."created_by" = 1;
+[2025-04-02T10:41:47.247Z] INFO: GET /api/projects 200 - 19ms
+[2025-04-02T10:42:49.894Z] WARN: POST /api/projects/1 404 - 4ms
+[2025-04-02T10:42:59.723Z] WARN: POST /api/projects/2 404 - 2ms
+[2025-04-02T10:43:55.181Z] INFO: 4ms Executed (default): SELECT "project_id", "name", "description", "created_by", "created_at", "updated_at" FROM "projects" AS "ProjectModel" WHERE "ProjectModel"."project_id" = 2;
+[2025-04-02T10:43:55.182Z] INFO: GET /api/projects/2 200 - 21ms
+[2025-04-02T10:44:20.875Z] INFO: 1ms Executed (default): SELECT "project_id", "name", "description", "created_by", "created_at", "updated_at" FROM "projects" AS "ProjectModel" WHERE "ProjectModel"."project_id" = 1;
+[2025-04-02T10:44:20.877Z] INFO: GET /api/projects/1 200 - 14ms
+[2025-04-02T11:00:20.335Z] INFO: 3ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T11:00:20.338Z] INFO: 6ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T11:00:20.338Z] INFO: Database connected successfully!
+[2025-04-02T11:00:20.340Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T11:01:26.814Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T11:01:26.816Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T11:01:26.816Z] INFO: Database connected successfully!
+[2025-04-02T11:01:26.817Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T11:02:07.823Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T11:02:07.824Z] INFO: 1ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T11:02:07.825Z] INFO: Database connected successfully!
+[2025-04-02T11:02:07.825Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T11:02:26.061Z] INFO: 4ms Executed (default): SELECT "ProjectModel"."project_id", "ProjectModel"."name", "ProjectModel"."description", "ProjectModel"."created_by", "ProjectModel"."created_at", "ProjectModel"."updated_at", "creator"."id" AS "creator.id", "creator"."name" AS "creator.name", "creator"."email" AS "creator.email", "creator"."username" AS "creator.username" FROM "projects" AS "ProjectModel" LEFT OUTER JOIN "users" AS "creator" ON "ProjectModel"."created_by" = "creator"."id" WHERE "ProjectModel"."created_by" = 1;
+[2025-04-02T11:02:26.067Z] INFO: GET /api/projects 200 - 39ms
+[2025-04-02T11:02:35.854Z] INFO: 1ms Executed (default): SELECT "ProjectModel"."project_id", "ProjectModel"."name", "ProjectModel"."description", "ProjectModel"."created_by", "ProjectModel"."created_at", "ProjectModel"."updated_at", "creator"."id" AS "creator.id", "creator"."name" AS "creator.name", "creator"."email" AS "creator.email", "creator"."username" AS "creator.username" FROM "projects" AS "ProjectModel" LEFT OUTER JOIN "users" AS "creator" ON "ProjectModel"."created_by" = "creator"."id" WHERE "ProjectModel"."project_id" = 1;
+[2025-04-02T11:02:35.856Z] INFO: GET /api/projects/1 200 - 8ms
+[2025-04-02T11:03:39.717Z] INFO: 0ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T11:03:39.718Z] INFO: 2ms Executed (default): SELECT 1+1 AS result
+[2025-04-02T11:03:39.718Z] INFO: Database connected successfully!
+[2025-04-02T11:03:39.719Z] INFO: Server is running on http://localhost:5000
+[2025-04-02T11:05:56.973Z] INFO: 2ms Executed (default): SELECT "project_id", "name", "description", "created_by", "created_at", "updated_at" FROM "projects" AS "ProjectModel" WHERE "ProjectModel"."project_id" = 1;
+[2025-04-02T11:05:56.981Z] INFO: 3ms Executed (default): UPDATE "projects" SET "name"=$1,"description"=$2,"updated_at"=$3 WHERE "project_id" = $4; "Cognify Ops updated", "AI-powered project management tool", "2025-04-02 20:05:56.974 +09:00", 1
+[2025-04-02T11:05:56.984Z] INFO: PUT /api/projects/1 200 - 68ms
+[2025-04-02T11:06:04.575Z] INFO: 2ms Executed (default): SELECT "ProjectModel"."project_id", "ProjectModel"."name", "ProjectModel"."description", "ProjectModel"."created_by", "ProjectModel"."created_at", "ProjectModel"."updated_at", "creator"."id" AS "creator.id", "creator"."name" AS "creator.name", "creator"."email" AS "creator.email", "creator"."username" AS "creator.username" FROM "projects" AS "ProjectModel" LEFT OUTER JOIN "users" AS "creator" ON "ProjectModel"."created_by" = "creator"."id" WHERE "ProjectModel"."created_by" = 1;
+[2025-04-02T11:06:04.578Z] INFO: GET /api/projects 200 - 14ms
+[2025-04-02T11:06:30.623Z] INFO: 1ms Executed (default): SELECT "project_id", "name", "description", "created_by", "created_at", "updated_at" FROM "projects" AS "ProjectModel" WHERE "ProjectModel"."project_id" = 1;
+[2025-04-02T11:06:30.628Z] INFO: 2ms Executed (default): UPDATE "projects" SET "name"=$1,"updated_at"=$2 WHERE "project_id" = $3; "Cognify Ops updated test", "2025-04-02 20:06:30.624 +09:00", 1
+[2025-04-02T11:06:30.629Z] INFO: PUT /api/projects/1 200 - 21ms
+[2025-04-02T11:06:43.171Z] INFO: 2ms Executed (default): SELECT "ProjectModel"."project_id", "ProjectModel"."name", "ProjectModel"."description", "ProjectModel"."created_by", "ProjectModel"."created_at", "ProjectModel"."updated_at", "creator"."id" AS "creator.id", "creator"."name" AS "creator.name", "creator"."email" AS "creator.email", "creator"."username" AS "creator.username" FROM "projects" AS "ProjectModel" LEFT OUTER JOIN "users" AS "creator" ON "ProjectModel"."created_by" = "creator"."id" WHERE "ProjectModel"."project_id" = 1;
+[2025-04-02T11:06:43.173Z] INFO: GET /api/projects/1 200 - 16ms
+[2025-04-02T11:07:47.283Z] ERROR: DELETE /api/projects/2 500 - 7ms
+[2025-04-02T11:08:11.282Z] INFO: 3ms Executed (default): DELETE FROM "projects" WHERE "project_id" = 2
+[2025-04-02T11:08:11.283Z] INFO: DELETE /api/projects/2 200 - 24ms
+[2025-04-02T11:08:21.339Z] INFO: 2ms Executed (default): SELECT "ProjectModel"."project_id", "ProjectModel"."name", "ProjectModel"."description", "ProjectModel"."created_by", "ProjectModel"."created_at", "ProjectModel"."updated_at", "creator"."id" AS "creator.id", "creator"."name" AS "creator.name", "creator"."email" AS "creator.email", "creator"."username" AS "creator.username" FROM "projects" AS "ProjectModel" LEFT OUTER JOIN "users" AS "creator" ON "ProjectModel"."created_by" = "creator"."id" WHERE "ProjectModel"."created_by" = 1;
+[2025-04-02T11:08:21.341Z] INFO: GET /api/projects 200 - 16ms

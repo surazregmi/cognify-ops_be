@@ -14,11 +14,8 @@ export class ProjectModel
   public name!: string;
   public description?: string;
   public created_by!: number;
-  public created_at?: string;
-  public updated_at?: string;
-
-  public readonly createdAt!: Date;
-  public readonly updatedAt!: Date;
+  public created_at?: Date;
+  public updated_at?: Date;
 }
 
 export default function (sequelize: Sequelize): typeof ProjectModel {
@@ -26,25 +23,25 @@ export default function (sequelize: Sequelize): typeof ProjectModel {
     {
       project_id: {
         type: DataTypes.INTEGER,
-        primaryKey: true,
         autoIncrement: true,
+        primaryKey: true,
       },
       name: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(255),
         allowNull: false,
       },
       description: {
         type: DataTypes.TEXT,
-        allowNull: true,
       },
       created_by: {
         type: DataTypes.INTEGER,
         allowNull: false,
         references: {
-          model: "users", // match table name of user model
+          model: "users", // refers to users table
           key: "id",
         },
         onDelete: "CASCADE",
+        onUpdate: "CASCADE",
       },
       created_at: {
         type: DataTypes.DATE,

@@ -43,9 +43,24 @@ const sequelize = new Sequelize.Sequelize(
 
 sequelize.authenticate();
 
+// Initialize models
+const UserModel = userModel(sequelize);
+const ProjectModel = projectModel(sequelize);
+
+// ✅ Define associations here
+UserModel.hasMany(ProjectModel, {
+  foreignKey: "created_by",
+  as: "projects",
+});
+
+ProjectModel.belongsTo(UserModel, {
+  foreignKey: "created_by",
+  as: "creator",
+});
+
 export const DB = {
-  Users: userModel(sequelize),
-  Projects: projectModel(sequelize),
+  Users: UserModel,
+  Projects: ProjectModel,
   sequelize, // connection instance (RAW queries)
   Sequelize, // library
 };
